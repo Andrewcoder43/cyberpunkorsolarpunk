@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# cyberpunkorsolarpunk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application to determine if you are more cyberpunk or solarpunk based on your answers to a series of questions.
 
-## Available Scripts
+You can visit the project at https://andrewcoder43.github.io/cyberpunkorsolarpunk/
 
-In the project directory, you can run:
+## How it works
 
-### `npm start`
+You will be given a total of ten questions in order to determine if you are more of a cyberpunk or a solarpunk.
+Each question is given with two choices that you can answer by clicking on one of the two answers.
+Clicking on your answer will display the total amount of votes people have made for each answer on that question.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  Clone the repository:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/Andrewcoder43/cyberpunkorsolarpunk.git
+    ```
+2.  Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    cd cyberpunkorsolarpunk
+    ```
+3.  Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1.  Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    This will start the application in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2.  Build the project for production:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm run build
+    ```
 
-## Learn More
+    This will create a `build` directory with the production-ready application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.  Deploy to GitHub Pages (optional):
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm run deploy
+    ```
 
-### Code Splitting
+    This command deploys the `build` directory to GitHub Pages. Ensure that you have configured the repository for GitHub Pages deployment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+-   Asks a series of questions to determine if you are more cyberpunk or solarpunk.
+-   Displays the total amount of votes people have made for each answer on that question.
+-   Built with React.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Here's how to contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with descriptive messages.
+4.  Push your changes to your fork.
+5.  Submit a pull request to the main branch of the original repository.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+No license provided. All rights reserved.
